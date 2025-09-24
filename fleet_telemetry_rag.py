@@ -11,9 +11,11 @@ from langchain.prompts import PromptTemplate
 
 def fetch_fleet_data():
     """Fetch telemetry data from the fleet API endpoint"""
-    # TODO: Add environment variable support
-    api_endpoint = "https://api4.dev.intellishift.com/telemetry/map-view/current-data"
-    bearer_token = "your_token_here"
+    api_endpoint = os.getenv("FLEET_API_ENDPOINT")
+    bearer_token = os.getenv("FLEET_BEARER_TOKEN")
+
+    if not api_endpoint or not bearer_token:
+        return {"error": "API endpoint or bearer token not configured. Check your .env file."}
 
     headers = {"Authorization": f"Bearer {bearer_token}"}
     response = requests.get(api_endpoint, headers=headers)
@@ -71,8 +73,9 @@ def build_vector_database(texts):
 
 def build_retrieval_qa_chain(chroma_db):
     """Build the RAG chain for question answering"""
-    # TODO: Add environment variable support
-    hf_token = "your_hf_token_here"
+    hf_token = os.getenv("HUGGINGFACE_API_TOKEN")
+    if not hf_token:
+        raise ValueError("HuggingFace API token not found. Check your .env file.")
 
     llm = HuggingFaceEndpoint(
         repo_id="mistralai/Mistral-7B-Instruct-v0.3",
@@ -105,6 +108,15 @@ def build_retrieval_qa_chain(chroma_db):
 
 def main():
     """Main application flow"""
+    # Check for environment variables
+    required_env_vars = ["FLEET_API_ENDPOINT", "FLEET_BEARER_TOKEN", "HUGGINGFACE_API_TOKEN"]
+    missing_vars = [var for var in required_env_vars if not os.getenv(var)]
+
+    if missing_vars:
+        print(f"Missing environment variables: {', '.join(missing_vars)}")
+        print("Please check your .env file and ensure all required variables are set.")
+        return
+
     user_query = input("Ask a question about your fleet: ")
 
     # Fetch and process data
